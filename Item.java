@@ -43,3 +43,19 @@ class Item {
 		return suma * a / 100;
 	}
 }
+
+class Receipt List<Item> {
+	int vkupnasuma;
+	Receipt(){}
+	int iznosnafiskalna(){
+		for(int i=0;i<List.elements;i++)
+		{
+		vkupnasuma+= price;
+		}
+		return vkupnasuma;
+	}
+	int ddv {
+		return List.taxReturn();
+	}
+	
+}
